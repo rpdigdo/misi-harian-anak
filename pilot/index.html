@@ -153,6 +153,20 @@
       .streak-mode{margin-left:auto;text-align:right}
       .mode-tag{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:13px;padding:6px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}
 
+      /* ---------- level mapel ---------- */
+      .levels-card{padding:18px 20px}
+      .levels-title{font-size:20px;font-weight:600;display:flex;align-items:center;gap:9px}
+      .levels-title svg{width:24px;height:24px;flex:0 0 auto}
+      .level-row{display:flex;align-items:center;gap:13px;padding:11px 0 0;margin-top:11px;border-top:2px dashed var(--line)}
+      .level-icon{width:46px;height:46px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+      .level-icon svg{width:28px;height:28px}
+      .level-icon.en{background:var(--blue-soft)}
+      .level-icon.math{background:var(--orange-soft)}
+      .level-icon.science{background:var(--green-soft)}
+      .level-text{display:flex;flex-direction:column;min-width:0}
+      .level-name{font-family:"Fredoka","Nunito",sans-serif;font-weight:600;font-size:17px;line-height:1.25}
+      .level-value{color:var(--ink-soft);font-weight:700;font-size:15px;line-height:1.3}
+
       .mission-hero{background:var(--card);border:2px solid var(--line);border-radius:28px;padding:20px;margin-bottom:16px;box-shadow:var(--shadow)}
       .mh-img{width:100%;height:180px;object-fit:contain;display:block;margin-bottom:8px}
       .mission-hero .mh-tag{display:inline-block;font-weight:800;font-size:13px;padding:5px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:.05em}
@@ -385,6 +399,11 @@
           <div class="streak-label" id="streakLabel">Ini api streak kamu! Kerjain misi tiap hari biar apinya tetap menyala, ya!</div>
         </div>
         <div class="streak-mode"><span class="mode-tag" id="streakModeTag">Lagi pemanasan</span></div>
+      </div>
+
+      <div class="card levels-card">
+        <h2 class="levels-title"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9L12 2.6z" fill="#ffc800"/></svg>Your Levels</h2>
+        <div id="levelsList"></div>
       </div>
 
       <div id="todayMission"></div>
@@ -626,6 +645,17 @@
           {t:"pg", cat:"Higher-Order Thinking Skills", q:"Riddle: I am yellow. I am round. You can drink my juice. What am I?", o:["an orange", "a banana", "an apple", "a grape"], a:0, ex:"Read the clues: it is round, its color is orange-yellow, and we drink its juice. It is an orange!"},
         ]
       }
+    ];
+
+    /* ==================== LEVEL MAPEL ====================
+       Level eksisting anak untuk tiap mapel, ditampilkan di kartu
+       "Your Levels" di dashboard supaya anak tahu dia lagi di level apa.
+       INI SATU-SATUNYA tempat level disimpan: kalau nanti level naik
+       atau turun, ubah cuma di sini — tampilannya ikut berubah sendiri. */
+    const LEVEL_MAPEL = [
+      { subj:"en",      mapel:"English", level:"EAC Grade Lower" },
+      { subj:"math",    mapel:"Math",    level:"Kangaroo Grade 2" },
+      { subj:"science", mapel:"Science", level:"Cambridge Year 3" }
     ];
 
     /* ==================== LENCANA ==================== */
@@ -992,6 +1022,7 @@
     /* ==================== DASHBOARD ==================== */
     const ICON_EN = '<svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15z" fill="#fff"/><path d="M4 18V5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5V18z" fill="#1cb0f6"/><path d="M8 7.5h8M8 11h5" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>';
     const ICON_MATH = '<svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="3" fill="#fff"/><rect x="4" y="3" width="16" height="18" rx="3" fill="#ff9600"/><rect x="7" y="6" width="10" height="4" rx="1.2" fill="#fff"/><circle cx="8.6" cy="13.4" r="1.4" fill="#fff"/><circle cx="12" cy="13.4" r="1.4" fill="#fff"/><circle cx="15.4" cy="13.4" r="1.4" fill="#fff"/><circle cx="8.6" cy="17.4" r="1.4" fill="#fff"/><circle cx="12" cy="17.4" r="1.4" fill="#fff"/><circle cx="15.4" cy="17.4" r="1.4" fill="#fff"/></svg>';
+    const ICON_SCIENCE = '<svg viewBox="0 0 24 24" fill="none"><path d="M10 2.8h4a.9.9 0 0 1 0 1.8h-.6v4.3l4.9 8.7A2.2 2.2 0 0 1 16.4 21H7.6a2.2 2.2 0 0 1-1.9-3.6l4.9-8.7V4.6H10a.9.9 0 0 1 0-1.8z" fill="#58cc02"/><path d="M8.3 14.2h7.4l2 3.6a1 1 0 0 1-.9 1.5H7.2a1 1 0 0 1-.9-1.5l2-3.6z" fill="#fff" opacity=".9"/><circle cx="10.9" cy="16.4" r="1" fill="#58cc02"/><circle cx="13.7" cy="17.5" r=".75" fill="#58cc02"/></svg>';
     const ICON_CHECK = '<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#58cc02"/><path d="M8 12.5l2.7 2.7L16.3 9.5" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     const ICON_LOCK = '<svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10.5" width="14" height="9.5" rx="2.5" fill="currentColor"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5" stroke="currentColor" stroke-width="2.4" fill="none"/></svg>';
 
@@ -1018,6 +1049,19 @@
           ? "Keren! Apimu sudah menyala " + s + " hari berturut-turut. Kerjain misi hari ini biar apinya nggak padam, ya!"
           : "Yuk, kerjain misi hari ini buat menyalakan api streak-mu!";
         tagEl.style.display = "none";
+      }
+
+      /* level mapel (dari konfigurasi terpusat LEVEL_MAPEL) */
+      const lvEl = document.getElementById("levelsList");
+      if(lvEl){
+        const ikonLevel = { en: ICON_EN, math: ICON_MATH, science: ICON_SCIENCE };
+        lvEl.innerHTML = LEVEL_MAPEL.map(function(l){
+          return '<div class="level-row">'
+            + '<span class="level-icon ' + l.subj + '">' + ikonLevel[l.subj] + '</span>'
+            + '<span class="level-text"><span class="level-name">' + l.mapel + '</span>'
+            + '<span class="level-value">' + l.level + '</span></span>'
+            + '</div>';
+        }).join("");
       }
 
       /* misi hari ini */
