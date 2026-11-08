@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- Top-left: red heart (symmetric) -->
+  <path d="M130,175 C70,135 55,95 80,70 C100,50 125,60 130,80 C135,60 160,50 180,70 C205,95 190,135 130,175 Z" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Top-right: blue capital letter F -->
+  <text x="350" y="158" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="900" fill="#1CB0F6" text-anchor="middle">F</text>
+  <!-- Bottom-left: green scalene triangle -->
+  <polygon points="70,300 190,300 150,225" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Bottom-right: yellow arrow pointing up and to the right -->
+  <polygon points="297.2,307.2 353.3,232.7 395,225 387.3,266.7 312.8,322.8" fill="#FFC800" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+</svg>

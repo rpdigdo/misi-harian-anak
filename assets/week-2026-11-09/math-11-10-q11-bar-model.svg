@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- Bar model: Mia 18 + Ben 14 + Leo ? = Total 50 -->
+  <!-- Total bracket above the bar -->
+  <path d="M40,150 H440 M40,150 V138 M440,150 V138" fill="none" stroke="#2B2B2B" stroke-width="3" stroke-linecap="round"/>
+  <text x="240" y="122" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#2B2B2B" text-anchor="middle">Total 50</text>
+  <!-- The bar, split into 3 parts -->
+  <rect x="40" y="180" width="144" height="70" fill="#1CB0F6" fill-opacity="0.35" stroke="#2B2B2B" stroke-width="2.5"/>
+  <rect x="184" y="180" width="112" height="70" fill="#58CC02" fill-opacity="0.35" stroke="#2B2B2B" stroke-width="2.5"/>
+  <rect x="296" y="180" width="144" height="70" fill="#FFC800" fill-opacity="0.4" stroke="#2B2B2B" stroke-width="2.5"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">
+    <text x="112" y="215">Mia 18</text>
+    <text x="240" y="215">Ben 14</text>
+    <text x="368" y="215">Leo ?</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- flower on top -->
+  <circle cx="240" cy="38" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="263" cy="55" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="254" cy="82" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="226" cy="82" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="217" cy="55" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="240" cy="60" r="10" fill="#FF9600" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- stem -->
+  <rect x="234" y="72" width="12" height="180" fill="#58CC02" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- leaves -->
+  <path d="M234 158 Q200 128 163 144 Q194 176 234 168 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M246 196 Q280 164 316 180 Q286 212 246 204 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <!-- soil -->
+  <rect x="182" y="244" width="116" height="16" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- pot -->
+  <path d="M182 258 L298 258 L286 318 L194 318 Z" fill="#FF9600" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <!-- roots (white, visible on the pot) -->
+  <path d="M218 260 Q210 282 214 306" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M240 260 Q240 284 240 310" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M262 260 Q270 282 266 306" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- arrow pointing to stem middle -->
+  <line x1="400" y1="160" x2="272" y2="160" stroke="#2B2B2B" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="252,160 274,147 274,173" fill="#2B2B2B"/>
+  <text x="412" y="174" font-family="Verdana, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2B2B2B">X</text>
+</svg>

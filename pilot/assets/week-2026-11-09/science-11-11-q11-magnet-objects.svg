@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- table -->
+  <rect x="20" y="252" width="440" height="12" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="20" y="264" width="440" height="76" fill="#E8D9B8"/>
+  <!-- horseshoe magnet above the steel key -->
+  <path d="M305 62 L305 108 A30 30 0 0 0 365 108 L365 62" fill="none" stroke="#9E9E9E" stroke-width="26"/>
+  <path d="M305 62 L305 108 A30 30 0 0 0 365 108 L365 62" fill="none" stroke="#2B2B2B" stroke-width="30" opacity="0"/>
+  <rect x="291" y="100" width="28" height="18" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="351" y="100" width="28" height="18" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="291" y="48" width="28" height="16" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="351" y="48" width="28" height="16" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- wooden block -->
+  <rect x="48" y="206" width="56" height="46" fill="#A9743F" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M58 220 L94 220 M58 236 L94 236" stroke="#8B5A2B" stroke-width="3" stroke-linecap="round"/>
+  <!-- plastic spoon -->
+  <ellipse cx="152" cy="216" rx="14" ry="18" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="147" y="230" width="10" height="22" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- steel key -->
+  <circle cx="332" cy="222" r="15" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="332" cy="222" r="6" fill="#FFF8E7" stroke="#2B2B2B" stroke-width="3"/>
+  <rect x="346" y="217" width="42" height="10" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="372" y="227" width="7" height="12" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="3"/>
+  <rect x="382" y="227" width="7" height="12" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="3"/>
+  <!-- rubber duck -->
+  <ellipse cx="424" cy="232" rx="27" ry="17" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="444" cy="210" r="13" fill="#FFC800" stroke="#2B2B2B" stroke-width="4"/>
+  <polygon points="456,208 470,213 456,218" fill="#FF9600" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="448" cy="206" r="2.5" fill="#2B2B2B"/>
+  <path d="M404 222 Q420 214 436 220" fill="none" stroke="#E0A800" stroke-width="3" stroke-linecap="round"/>
+</svg>

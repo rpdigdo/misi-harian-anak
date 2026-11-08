@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- Isometric stack of 8 light-blue cubes: bottom 5 (L-shape), middle 2, top 1 -->
+  <defs>
+    <g id="cube">
+      <polygon points="0,-19 34,0 0,19 -34,0" fill="#1CB0F6" fill-opacity="0.28" stroke="#2B2B2B" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="-34,0 0,19 0,51 -34,32" fill="#1CB0F6" fill-opacity="0.45" stroke="#2B2B2B" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="0,19 34,0 34,32 0,51" fill="#1CB0F6" fill-opacity="0.62" stroke="#2B2B2B" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <!-- Bottom layer, back to front -->
+  <use href="#cube" x="240" y="210"/>
+  <use href="#cube" x="274" y="229"/>
+  <use href="#cube" x="206" y="229"/>
+  <use href="#cube" x="308" y="248"/>
+  <use href="#cube" x="240" y="248"/>
+  <!-- Middle layer: 2 cubes on front-left and front-middle -->
+  <use href="#cube" x="240" y="178"/>
+  <use href="#cube" x="274" y="197"/>
+  <!-- Top layer: 1 cube on front-left -->
+  <use href="#cube" x="240" y="146"/>
+</svg>

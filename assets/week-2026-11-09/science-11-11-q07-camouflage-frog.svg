@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- grass ground -->
+  <rect x="0" y="292" width="480" height="68" fill="#58CC02"/>
+  <rect x="0" y="288" width="480" height="6" fill="#2B2B2B"/>
+  <!-- butterfly in the sky -->
+  <ellipse cx="322" cy="72" rx="16" ry="22" fill="#FFC800" stroke="#2B2B2B" stroke-width="4" transform="rotate(-25 322 72)"/>
+  <ellipse cx="352" cy="72" rx="16" ry="22" fill="#FFC800" stroke="#2B2B2B" stroke-width="4" transform="rotate(25 352 72)"/>
+  <rect x="333" y="58" width="8" height="34" rx="4" fill="#2B2B2B"/>
+  <circle cx="337" cy="54" r="6" fill="#2B2B2B"/>
+  <!-- branch with red bird (left) -->
+  <rect x="28" y="212" width="110" height="12" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="82" cy="188" rx="28" ry="20" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="102" cy="170" r="15" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="4"/>
+  <polygon points="116,168 132,173 116,178" fill="#FF9600" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="106" cy="166" r="3" fill="#2B2B2B"/>
+  <path d="M62 182 Q82 196 100 184" fill="none" stroke="#C92A2A" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="56,192 38,206 62,202" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- big green leaf (centre) -->
+  <path d="M240 148 Q158 196 168 262 Q200 284 240 284 Q280 284 312 262 Q322 196 240 148 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M240 284 L240 292" stroke="#8B5A2B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M240 158 Q240 220 240 280" fill="none" stroke="#3D9E00" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 196 L214 214 M240 196 L266 214 M240 232 L212 248 M240 232 L268 248" fill="none" stroke="#3D9E00" stroke-width="3" stroke-linecap="round"/>
+  <!-- green frog on the leaf (almost same colour as the leaf) -->
+  <ellipse cx="214" cy="222" rx="30" ry="21" fill="#46A81E" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="198" cy="202" r="10" fill="#46A81E" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="228" cy="202" r="10" fill="#46A81E" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="198" cy="201" r="4" fill="#FFFFFF"/>
+  <circle cx="228" cy="201" r="4" fill="#FFFFFF"/>
+  <circle cx="199" cy="202" r="2" fill="#2B2B2B"/>
+  <circle cx="229" cy="202" r="2" fill="#2B2B2B"/>
+  <ellipse cx="186" cy="238" rx="10" ry="6" fill="#46A81E" stroke="#2B2B2B" stroke-width="3" transform="rotate(30 186 238)"/>
+  <ellipse cx="242" cy="238" rx="10" ry="6" fill="#46A81E" stroke="#2B2B2B" stroke-width="3" transform="rotate(-30 242 238)"/>
+  <path d="M204 228 Q214 234 224 228" fill="none" stroke="#2B2B2B" stroke-width="3" stroke-linecap="round"/>
+  <!-- grey stone with brown mouse (right) -->
+  <ellipse cx="408" cy="282" rx="44" ry="18" fill="#BDBDBD" stroke="#2B2B2B" stroke-width="4"/>
+  <ellipse cx="406" cy="256" rx="26" ry="17" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="426" cy="242" r="13" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="420" cy="230" r="7" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="432" cy="230" r="7" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="430" cy="240" r="2.5" fill="#2B2B2B"/>
+  <path d="M382 262 Q362 268 356 284" fill="none" stroke="#8B5A2B" stroke-width="5" stroke-linecap="round"/>
+</svg>

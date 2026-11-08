@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- sky -->
+  <rect width="480" height="120" fill="#D6F0FD"/>
+  <!-- small blue bird flying -->
+  <ellipse cx="392" cy="58" rx="15" ry="9" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="404" cy="54" r="7" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="3"/>
+  <polygon points="410,53 420,56 410,59" fill="#FF9600" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M384 52 Q372 38 360 44 Q372 56 384 56 Z" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="405" cy="52" r="2" fill="#2B2B2B"/>
+  <!-- grass -->
+  <rect x="0" y="296" width="480" height="64" fill="#58CC02"/>
+  <!-- pond -->
+  <ellipse cx="240" cy="238" rx="152" ry="58" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="4"/>
+  <path d="M120 232 Q150 224 180 232" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M300 258 Q330 250 360 258" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <!-- orange fish under the water -->
+  <ellipse cx="168" cy="248" rx="25" ry="12" fill="#FF9600" stroke="#2B2B2B" stroke-width="3"/>
+  <polygon points="144,248 122,236 122,260" fill="#FF9600" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="182" cy="245" r="2.5" fill="#2B2B2B"/>
+  <!-- brown duck swimming on the water -->
+  <ellipse cx="272" cy="216" rx="27" ry="15" fill="#A9743F" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="292" cy="200" r="12" fill="#A9743F" stroke="#2B2B2B" stroke-width="4"/>
+  <polygon points="303,198 316,202 303,206" fill="#FF9600" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="295" cy="197" r="2.5" fill="#2B2B2B"/>
+  <!-- lily pad at the pond edge, half in water half on grass -->
+  <ellipse cx="376" cy="288" rx="36" ry="11" fill="#3D9E00" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- green frog on the lily pad -->
+  <ellipse cx="376" cy="272" rx="21" ry="14" fill="#58CC02" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="366" cy="259" r="7" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="386" cy="259" r="7" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="366" cy="258" r="3" fill="#FFFFFF"/>
+  <circle cx="386" cy="258" r="3" fill="#FFFFFF"/>
+  <circle cx="367" cy="259" r="1.5" fill="#2B2B2B"/>
+  <circle cx="387" cy="259" r="1.5" fill="#2B2B2B"/>
+  <ellipse cx="360" cy="282" rx="8" ry="5" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" transform="rotate(25 360 282)"/>
+  <ellipse cx="392" cy="282" rx="8" ry="5" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" transform="rotate(-25 392 282)"/>
+</svg>

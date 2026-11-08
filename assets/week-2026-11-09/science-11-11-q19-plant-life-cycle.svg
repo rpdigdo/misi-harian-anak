@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- numbers above boxes -->
+  <text x="68" y="104" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="bold" fill="#2B2B2B" text-anchor="middle">1</text>
+  <text x="183" y="104" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="bold" fill="#2B2B2B" text-anchor="middle">2</text>
+  <text x="298" y="104" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="bold" fill="#2B2B2B" text-anchor="middle">3</text>
+  <text x="413" y="104" font-family="Verdana, Arial, sans-serif" font-size="34" font-weight="bold" fill="#2B2B2B" text-anchor="middle">4</text>
+  <!-- four boxes -->
+  <rect x="18" y="122" width="100" height="128" rx="8" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="133" y="122" width="100" height="128" rx="8" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="248" y="122" width="100" height="128" rx="8" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <rect x="363" y="122" width="100" height="128" rx="8" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="4"/>
+  <!-- Box 1: tall plant with pink flowers -->
+  <rect x="28" y="234" width="80" height="10" fill="#8B5A2B"/>
+  <rect x="64" y="176" width="8" height="60" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <path d="M64 206 Q44 192 34 200 Q50 214 64 212 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M72 196 Q92 182 102 190 Q86 204 72 202 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="68" cy="160" r="11" fill="#F27BAC" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="52" cy="172" r="9" fill="#F27BAC" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="86" cy="170" r="9" fill="#F27BAC" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="68" cy="160" r="4" fill="#FFC800"/>
+  <!-- Box 2: one small seed on the soil -->
+  <rect x="143" y="234" width="80" height="10" fill="#8B5A2B"/>
+  <ellipse cx="183" cy="224" rx="13" ry="9" fill="#8B5A2B" stroke="#2B2B2B" stroke-width="3"/>
+  <!-- Box 3: small sprout with two tiny leaves -->
+  <rect x="258" y="234" width="80" height="10" fill="#8B5A2B"/>
+  <rect x="295" y="208" width="6" height="28" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="284" cy="206" rx="11" ry="6" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" transform="rotate(-30 284 206)"/>
+  <ellipse cx="312" cy="206" rx="11" ry="6" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" transform="rotate(30 312 206)"/>
+  <!-- Box 4: tall plant with many leaves, no flowers -->
+  <rect x="373" y="234" width="80" height="10" fill="#8B5A2B"/>
+  <rect x="409" y="168" width="8" height="68" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <path d="M409 214 Q386 198 374 208 Q392 224 409 220 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M417 204 Q440 188 452 198 Q434 214 417 210 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M409 190 Q388 176 378 184 Q394 198 409 196 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M417 180 Q438 166 448 174 Q432 188 417 186 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M409 166 Q392 152 384 160 Q398 172 409 170 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M417 158 Q434 144 444 152 Q430 164 417 162 Z" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+</svg>

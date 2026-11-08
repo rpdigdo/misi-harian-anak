@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <text x="240" y="38" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#2B2B2B" text-anchor="middle">Favourite Fruit</text>
+  <!-- Horizontal gridlines -->
+  <g stroke="#2B2B2B" stroke-opacity="0.15" stroke-width="1">
+    <line x1="60" y1="256" x2="435" y2="256"/>
+    <line x1="60" y1="212" x2="435" y2="212"/>
+    <line x1="60" y1="168" x2="435" y2="168"/>
+    <line x1="60" y1="124" x2="435" y2="124"/>
+    <line x1="60" y1="80" x2="435" y2="80"/>
+  </g>
+  <!-- Axes -->
+  <line x1="60" y1="80" x2="60" y2="300" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="60" y1="300" x2="435" y2="300" stroke="#2B2B2B" stroke-width="3"/>
+  <!-- Y-axis labels -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#2B2B2B" text-anchor="end" dominant-baseline="central">
+    <text x="52" y="300">0</text>
+    <text x="52" y="256">2</text>
+    <text x="52" y="212">4</text>
+    <text x="52" y="168">6</text>
+    <text x="52" y="124">8</text>
+    <text x="52" y="80">10</text>
+  </g>
+  <!-- Bars: Apple 8, Banana 5, Orange 6, Mango 3 -->
+  <g stroke="#2B2B2B" stroke-width="2.5">
+    <rect x="82" y="124" width="56" height="176" fill="#FF4B4B"/>
+    <rect x="167" y="190" width="56" height="110" fill="#FFC800"/>
+    <rect x="252" y="168" width="56" height="132" fill="#FF9600"/>
+    <rect x="337" y="234" width="56" height="66" fill="#58CC02"/>
+  </g>
+  <!-- Value labels on top of each bar -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#2B2B2B" text-anchor="middle">
+    <text x="110" y="112">8</text>
+    <text x="195" y="178">5</text>
+    <text x="280" y="156">6</text>
+    <text x="365" y="222">3</text>
+  </g>
+  <!-- X-axis labels -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#2B2B2B" text-anchor="middle">
+    <text x="110" y="326">Apple</text>
+    <text x="195" y="326">Banana</text>
+    <text x="280" y="326">Orange</text>
+    <text x="365" y="326">Mango</text>
+  </g>
+</svg>

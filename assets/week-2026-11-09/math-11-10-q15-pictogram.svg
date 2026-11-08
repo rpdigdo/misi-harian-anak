@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <defs>
+    <!-- Book icon -->
+    <g id="book">
+      <rect x="-15" y="-12" width="30" height="24" rx="2" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="2.5"/>
+      <line x1="0" y1="-12" x2="0" y2="12" stroke="#2B2B2B" stroke-width="2"/>
+      <line x1="-10" y1="-5" x2="-3" y2="-5" stroke="#2B2B2B" stroke-width="1.5"/>
+      <line x1="-10" y1="3" x2="-3" y2="3" stroke="#2B2B2B" stroke-width="1.5"/>
+      <line x1="3" y1="-5" x2="10" y2="-5" stroke="#2B2B2B" stroke-width="1.5"/>
+      <line x1="3" y1="3" x2="10" y2="3" stroke="#2B2B2B" stroke-width="1.5"/>
+    </g>
+    <!-- Wave icon -->
+    <g id="wave" fill="none" stroke="#1CB0F6" stroke-width="4" stroke-linecap="round">
+      <path d="M-15,-4 q7.5,-9 15,0 t15,0"/>
+      <path d="M-15,6 q7.5,-9 15,0 t15,0"/>
+    </g>
+    <!-- Pencil icon, pointing up-right -->
+    <g id="pencil" transform="rotate(-45)">
+      <rect x="-17" y="-4.5" width="4" height="9" fill="#FF4B4B" stroke="#2B2B2B" stroke-width="2"/>
+      <rect x="-13" y="-4.5" width="25" height="9" fill="#FF9600" stroke="#2B2B2B" stroke-width="2"/>
+      <polygon points="12,-4.5 12,4.5 21,0" fill="#FFF8E7" stroke="#2B2B2B" stroke-width="2" stroke-linejoin="round"/>
+      <polygon points="17,-2 17,2 21,0" fill="#2B2B2B"/>
+    </g>
+  </defs>
+  <text x="240" y="42" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#2B2B2B" text-anchor="middle">Favourite Hobby</text>
+  <!-- Row labels -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="end" dominant-baseline="central">
+    <text x="150" y="105">Reading</text>
+    <text x="150" y="170">Swimming</text>
+    <text x="150" y="235">Drawing</text>
+  </g>
+  <!-- Reading: 4 books -->
+  <use href="#book" x="172" y="105"/>
+  <use href="#book" x="216" y="105"/>
+  <use href="#book" x="260" y="105"/>
+  <use href="#book" x="304" y="105"/>
+  <!-- Swimming: 3 waves -->
+  <use href="#wave" x="172" y="170"/>
+  <use href="#wave" x="216" y="170"/>
+  <use href="#wave" x="260" y="170"/>
+  <!-- Drawing: 5 pencils -->
+  <use href="#pencil" x="172" y="235"/>
+  <use href="#pencil" x="216" y="235"/>
+  <use href="#pencil" x="260" y="235"/>
+  <use href="#pencil" x="304" y="235"/>
+  <use href="#pencil" x="348" y="235"/>
+  <!-- Key -->
+  <text x="240" y="310" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle">1 picture = 2 children</text>
+</svg>

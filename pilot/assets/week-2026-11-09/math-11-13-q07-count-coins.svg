@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- Two $5 notes -->
+  <g stroke="#2B2B2B" stroke-width="3">
+    <rect x="75" y="60" width="150" height="85" rx="8" fill="#58CC02"/>
+    <rect x="255" y="60" width="150" height="85" rx="8" fill="#58CC02"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">
+    <text x="150" y="103">5</text>
+    <text x="330" y="103">5</text>
+  </g>
+  <!-- Four $1 coins -->
+  <g stroke="#2B2B2B" stroke-width="3">
+    <circle cx="80" cy="250" r="38" fill="#FFC800"/>
+    <circle cx="180" cy="250" r="38" fill="#FFC800"/>
+    <circle cx="280" cy="250" r="38" fill="#FFC800"/>
+    <circle cx="380" cy="250" r="38" fill="#FFC800"/>
+  </g>
+  <g fill="none" stroke="#2B2B2B" stroke-width="2">
+    <circle cx="80" cy="250" r="29"/>
+    <circle cx="180" cy="250" r="29"/>
+    <circle cx="280" cy="250" r="29"/>
+    <circle cx="380" cy="250" r="29"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">
+    <text x="80" y="252">1</text>
+    <text x="180" y="252">1</text>
+    <text x="280" y="252">1</text>
+    <text x="380" y="252">1</text>
+  </g>
+</svg>

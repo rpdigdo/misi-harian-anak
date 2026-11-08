@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- Repeating pattern: triangle, circle, square — 9 shapes, numbered 1 to 9 -->
+  <g stroke="#2B2B2B" stroke-width="2.5" stroke-linejoin="round">
+    <!-- Triangles (1, 4, 7) -->
+    <polygon points="50,128 28,168 72,168" fill="#FF4B4B"/>
+    <polygon points="185,128 163,168 207,168" fill="#FF4B4B"/>
+    <polygon points="320,128 298,168 342,168" fill="#FF4B4B"/>
+    <!-- Circles (2, 5, 8) -->
+    <circle cx="95" cy="150" r="21" fill="#1CB0F6"/>
+    <circle cx="230" cy="150" r="21" fill="#1CB0F6"/>
+    <circle cx="365" cy="150" r="21" fill="#1CB0F6"/>
+    <!-- Squares (3, 6, 9) -->
+    <rect x="120" y="130" width="40" height="40" fill="#58CC02"/>
+    <rect x="255" y="130" width="40" height="40" fill="#58CC02"/>
+    <rect x="390" y="130" width="40" height="40" fill="#58CC02"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#2B2B2B" text-anchor="middle">
+    <text x="50" y="212">1</text>
+    <text x="95" y="212">2</text>
+    <text x="140" y="212">3</text>
+    <text x="185" y="212">4</text>
+    <text x="230" y="212">5</text>
+    <text x="275" y="212">6</text>
+    <text x="320" y="212">7</text>
+    <text x="365" y="212">8</text>
+    <text x="410" y="212">9</text>
+  </g>
+</svg>

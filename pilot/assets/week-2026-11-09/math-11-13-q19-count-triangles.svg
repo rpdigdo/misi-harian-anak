@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <!-- One big triangle split into 4 small triangles = 5 triangles in total -->
+  <polygon points="240,60 90,300 390,300" fill="#FFFFFF" stroke="#1CB0F6" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#1CB0F6" stroke-width="4">
+    <line x1="165" y1="180" x2="315" y2="180"/>
+    <line x1="165" y1="180" x2="240" y2="300"/>
+    <line x1="315" y1="180" x2="240" y2="300"/>
+  </g>
+</svg>
