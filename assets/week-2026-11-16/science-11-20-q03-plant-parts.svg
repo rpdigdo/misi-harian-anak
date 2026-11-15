@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <path d="M180 280 L300 280 L288 345 L192 345 Z" fill="#E07856" stroke="#2B2B2B" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="172" y="268" width="136" height="18" fill="#D4694A" stroke="#2B2B2B" stroke-width="4"/>
+  <path d="M240 286 Q230 305 222 318" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 286 Q250 305 258 318" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 286 L240 320" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="240" y1="280" x2="240" y2="120" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="198" cy="185" rx="30" ry="14" fill="#58CC02" stroke="#2B2B2B" stroke-width="3" transform="rotate(-30 198 185)"/>
+  <ellipse cx="282" cy="205" rx="26" ry="12" fill="#7ED321" stroke="#2B2B2B" stroke-width="3" transform="rotate(25 282 205)"/>
+  <line x1="240" y1="93" x2="240" y2="81" stroke="#FFD93D" stroke-width="9" stroke-linecap="round"/>
+  <line x1="251" y1="101" x2="263" y2="98" stroke="#FFD93D" stroke-width="9" stroke-linecap="round"/>
+  <line x1="247" y1="115" x2="254" y2="124" stroke="#FFD93D" stroke-width="9" stroke-linecap="round"/>
+  <line x1="233" y1="115" x2="226" y2="124" stroke="#FFD93D" stroke-width="9" stroke-linecap="round"/>
+  <line x1="229" y1="101" x2="217" y2="98" stroke="#FFD93D" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="240" cy="105" r="10" fill="#FF9800" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="420" y1="165" x2="232" y2="182" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="232,182 252,174 250,190" fill="#2B2B2B"/>
+  <text x="432" y="170" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#2B2B2B" text-anchor="middle">X</text>
+</svg>

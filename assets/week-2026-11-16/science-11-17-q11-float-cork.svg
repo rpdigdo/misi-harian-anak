@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <path d="M164 72 L316 72 L302 318 L178 318 Z" fill="#1CB0F6"/>
+  <path d="M160 58 L320 58 L306 324 L174 324 Z" fill="#D6F0FD" fill-opacity="0.35" stroke="#2B2B2B" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="163" y1="72" x2="317" y2="72" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="240" cy="70" rx="30" ry="11" fill="#C08A4B" stroke="#2B2B2B" stroke-width="4"/>
+  <line x1="216" y1="70" x2="264" y2="70" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="200" cy="300" rx="26" ry="15" fill="#9E9E9E" stroke="#2B2B2B" stroke-width="4"/>
+  <path d="M182 296 Q200 288 216 296" fill="none" stroke="#757575" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="248" cy="292" r="12" fill="#C0C0C0" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="248" cy="292" r="5" fill="#1CB0F6" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="258" y1="292" x2="276" y2="292" stroke="#2B2B2B" stroke-width="9" stroke-linecap="round"/>
+  <line x1="258" y1="292" x2="276" y2="292" stroke="#C0C0C0" stroke-width="5" stroke-linecap="round"/>
+  <line x1="266" y1="292" x2="266" y2="304" stroke="#2B2B2B" stroke-width="7" stroke-linecap="round"/>
+  <line x1="266" y1="292" x2="266" y2="304" stroke="#C0C0C0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="273" y1="292" x2="273" y2="304" stroke="#2B2B2B" stroke-width="7" stroke-linecap="round"/>
+  <line x1="273" y1="292" x2="273" y2="304" stroke="#C0C0C0" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="288" cy="300" r="15" fill="#FFD93D" stroke="#2B2B2B" stroke-width="4"/>
+  <circle cx="288" cy="300" r="10" fill="none" stroke="#B8860B" stroke-width="2"/>
+  <polygon points="288,294 290,298 294,298 291,301 292,305 288,302 284,305 285,301 282,298 286,298" fill="#FF8F00" stroke="#2B2B2B" stroke-width="1" stroke-linejoin="round"/>
+</svg>

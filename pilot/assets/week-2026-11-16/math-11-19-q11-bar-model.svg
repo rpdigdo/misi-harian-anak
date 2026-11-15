@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <line x1="60" y1="120" x2="420" y2="120" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="60" y1="120" x2="60" y2="132" stroke="#2B2B2B" stroke-width="3"/>
+  <line x1="420" y1="120" x2="420" y2="132" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="240" y="105" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle">Total 72</text>
+  <rect x="60.0" y="150" width="130.0" height="60" fill="#AED6F1" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="125.0" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">Mia 26</text>
+  <rect x="190.0" y="150" width="95.0" height="60" fill="#A9DFBF" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="237.5" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">Ben 19</text>
+  <rect x="285.0" y="150" width="135.0" height="60" fill="#F9E79F" stroke="#2B2B2B" stroke-width="3"/>
+  <text x="352.5" y="180" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2B2B2B" text-anchor="middle" dominant-baseline="central">Leo ?</text>
+</svg>

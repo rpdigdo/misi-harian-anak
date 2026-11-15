@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#FFF8E7"/>
+  <rect x="0" y="0" width="480" height="200" fill="#B3E5FC"/>
+  <rect x="0" y="200" width="480" height="160" fill="#8BC34A"/>
+  <rect x="60" y="110" width="30" height="170" fill="#8D6E63" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="75" cy="95" r="55" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="40" cy="125" r="32" fill="#7ED321" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="112" cy="125" r="32" fill="#7ED321" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="105" cy="100" rx="16" ry="11" fill="#42A5F5" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="118" cy="93" r="8" fill="#42A5F5" stroke="#2B2B2B" stroke-width="3"/>
+  <polygon points="126,91 136,94 126,97" fill="#FF9800" stroke="#2B2B2B" stroke-width="2"/>
+  <circle cx="120" cy="91" r="2" fill="#2B2B2B"/>
+  <ellipse cx="360" cy="285" rx="95" ry="38" fill="#42A5F5" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="340" cy="288" rx="22" ry="10" fill="#FF9800" stroke="#2B2B2B" stroke-width="3"/>
+  <polygon points="318,288 304,278 304,298" fill="#FF9800" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="352" cy="285" r="2" fill="#2B2B2B"/>
+  <ellipse cx="405" cy="258" rx="26" ry="9" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="405" cy="245" rx="13" ry="10" fill="#58CC02" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="400" cy="236" r="4" fill="#58CC02" stroke="#2B2B2B" stroke-width="2"/>
+  <circle cx="410" cy="236" r="4" fill="#58CC02" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="215" cy="300" rx="26" ry="16" fill="#A1887F" stroke="#2B2B2B" stroke-width="3"/>
+  <circle cx="238" cy="288" r="12" fill="#A1887F" stroke="#2B2B2B" stroke-width="3"/>
+  <ellipse cx="232" cy="270" rx="4" ry="12" fill="#A1887F" stroke="#2B2B2B" stroke-width="2"/>
+  <ellipse cx="242" cy="270" rx="4" ry="12" fill="#A1887F" stroke="#2B2B2B" stroke-width="2"/>
+  <circle cx="242" cy="286" r="2" fill="#2B2B2B"/>
+</svg>
